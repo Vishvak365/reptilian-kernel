@@ -1092,6 +1092,8 @@ static int __ref kernel_init(void *unused)
 {
 	int ret;
 
+	pr_err("##### Vishvak Seenichamy_Venkatesan (UFID: 3685-9121) I Hope This Works #####");
+
 	kernel_init_freeable();
 	/* need to finish all async __init code before freeing the memory */
 	async_synchronize_full();
